@@ -16,9 +16,3 @@ A Crainf nasceu com o propósito de transformar dados em clareza estratégica. C
 ## Deploy
 
 Este site é hospedado automaticamente no GitHub Pages a partir da branch `main`.
-
-## Contato
-
-- Email: crainfservice@gmail.com
-- Telefone: +55 11 96783-7734
-- CNPJ: 43.743.605/0001-85
