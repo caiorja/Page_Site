@@ -1,0 +1,22 @@
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Dependências
+node_modules/
+vendor/
+
+# Arquivos de configuração local
+.env
+.env.local
+
+# Cache
+.cache/
+.sass-cache/
+.jekyll-cache/
+
+# Arquivos de backup
+*~

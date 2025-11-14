@@ -1,0 +1,19 @@
+<svg width="300" height="100" viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Logo 2: Gráfico de pizza com CRAINF -->
+  <defs>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0ea5e9;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Gráfico de pizza -->
+  <circle cx="50" cy="50" r="30" fill="none" stroke="#e2e8f0" stroke-width="8"/>
+  <path d="M 50 20 A 30 30 0 0 1 75 65 L 50 50 Z" fill="url(#grad2)"/>
+  <circle cx="50" cy="50" r="22" fill="white"/>
+  
+  <!-- Texto CRAINF -->
+  <text x="100" y="45" font-family="Inter, sans-serif" font-size="28" font-weight="700" fill="#0f172a">CRAINF</text>
+  <text x="100" y="65" font-family="Inter, sans-serif" font-size="12" font-weight="500" fill="#64748b">SOLUTIONS</text>
+</svg>

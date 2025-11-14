@@ -1,0 +1,24 @@
+# Configuração do GitHub Pages
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Configurações básicas
+title: "Crainf | Business Intelligence"
+description: "Consultoria em BI, ETL e Data Analytics com Power BI"
+
+# Configurações de build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .bundle
+  - .sass-cache
+  - .jekyll-cache
+  - .jekyll-metadata
+
+# Habilitar GitHub Pages
+github:
+  repository_url: https://github.com/caiorja/Page_Site
