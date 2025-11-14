@@ -272,7 +272,7 @@
     }
     .dash-frame-wrap iframe {
       width: 100%;
-      height: 70vh;
+      height: 80vh;
       border: 0;
     }
     #dash-back {
@@ -708,6 +708,7 @@
       document.getElementById('servicos').style.display = 'none';
       document.getElementById('sobre').style.display = 'none';
       document.getElementById('contato').style.display = 'none';
+      document.querySelector('header').style.display = 'none';
       window.scrollTo({top: 0, behavior: 'smooth'});
       location.hash = 'dash=' + key;
     }
@@ -723,6 +724,7 @@
           document.getElementById('contato').style.display = '';
           document.getElementById('cases').scrollIntoView({behavior:'smooth'});
           location.hash = 'cases';
+          document.querySelector('header').style.display = '';
         };
       }
       const h = location.hash;
