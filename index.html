@@ -251,6 +251,15 @@
       color: #64748b;
       line-height: 1.6;
     }
+
+    #cases .card.clickable h3 {
+      text-align: center;
+      text-transform: none;
+    }
+
+    #cases .card.clickable p {
+      text-align: left;
+    }
     
     #cases {
       background-image: url('mar_linhas.png');
@@ -660,6 +669,7 @@
     <div class="cards">
       <div class="card clickable" onclick="openDash('sixsigma')"><h3>Gestão (Six Sigma)</h3><p>Metodologia aplicada em laboratório para reduzir atrasos e falhas.<br> O dashboard revela pontos críticos, compara períodos e orienta ações de melhoria contínua.</p></div>
       <div class="card clickable" onclick="openDash('vendasb2b')"><h3>Vendas B2B</h3><p>Dashboard que reúne os principais indicadores para auxiliar sua empresa no dia a dia. O controle comercial da sua operação em suas mãos.</p></div>
+      <div class="card clickable" onclick="openDash('churn')"><h3>Customer Churn Prediction</h3><p>Dashboard preditivo com Machine Learning para identificar risco de cancelamento e um Agente de IA para recomendações personalizadas. Antecipe perdas, retenha clientes e fortaleça o relacionamento.</p></div>
     </div>
   </section>
 
@@ -694,7 +704,8 @@
   <script>
     const DASHES = {
       sixsigma: 'https://app.powerbi.com/view?r=eyJrIjoiNTNjNmIzNjMtMDgxYy00YTk5LWFjYjktZWQ5M2Y3Njk3NjIwIiwidCI6IjA5ZjRiZmNhLTY3Y2QtNGU0Zi05NjNkLWExYzk1MzEyNmMwNCJ9',
-      vendasb2b: 'https://app.powerbi.com/view?r=eyJrIjoiNzk3NDYyMTQtZjgwYi00YmQwLWJlY2UtNGY4MTYxY2E1OTY5IiwidCI6IjA5ZjRiZmNhLTY3Y2QtNGU0Zi05NjNkLWExYzk1MzEyNmMwNCJ9'
+      vendasb2b: 'https://app.powerbi.com/view?r=eyJrIjoiNzk3NDYyMTQtZjgwYi00YmQwLWJlY2UtNGY4MTYxY2E1OTY5IiwidCI6IjA5ZjRiZmNhLTY3Y2QtNGU0Zi05NjNkLWExYzk1MzEyNmMwNCJ9',
+      churn: 'https://app.powerbi.com/view?r=eyJrIjoiYjM4ZjFmMjktYzAxYS00OWNhLWJkOTctNDA5NGUzMGExMTE5IiwidCI6IjA5ZjRiZmNhLTY3Y2QtNGU0Zi05NjNkLWExYzk1MzEyNmMwNCJ9'
     };
     function openDash(key){
       const url = DASHES[key];
