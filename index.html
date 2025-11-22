@@ -260,6 +260,19 @@
     #cases .card.clickable p {
       text-align: left;
     }
+
+    #cases .card.clickable .cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: #0ea5e9;
+      font-weight: 600;
+      margin-top: 12px;
+    }
+
+    #cases .card.clickable:hover .cta {
+      color: #1d4ed8;
+    }
     
     #cases {
       background-image: url('mar_linhas.png');
@@ -667,9 +680,9 @@
   <section id="cases">
     <h2>Cases e Soluções</h2>
     <div class="cards">
-      <div class="card clickable" onclick="openDash('sixsigma')"><h3>Gestão (Six Sigma)</h3><p>Metodologia aplicada em laboratório para reduzir atrasos e falhas.<br> O dashboard revela pontos críticos, compara períodos e orienta ações de melhoria contínua.</p></div>
-      <div class="card clickable" onclick="openDash('vendasb2b')"><h3>Vendas B2B</h3><p>Dashboard que reúne os principais indicadores para auxiliar sua empresa no dia a dia. O controle comercial da sua operação em suas mãos.</p></div>
-      <div class="card clickable" onclick="openDash('churn')"><h3>Customer Churn Prediction</h3><p>Dashboard preditivo com Machine Learning para identificar risco de cancelamento e um Agente de IA para recomendações personalizadas. Antecipe perdas, retenha clientes e fortaleça o relacionamento.</p></div>
+      <div class="card clickable" onclick="openDash('sixsigma')"><h3>Gestão (Six Sigma)</h3><p>Metodologia aplicada em laboratório para reduzir atrasos e falhas.<br> O dashboard revela pontos críticos, compara períodos e orienta ações de melhoria contínua.</p><div class="cta">Ver Dashboard -></div></div>
+      <div class="card clickable" onclick="openDash('vendasb2b')"><h3>Vendas B2B</h3><p>Dashboard completo de vendas que reúne os principais indicadores para apoiar a diretoria, filiais, supervisores e vendedores no dia a dia.<br>  O controle comercial da sua operação em suas mãos.</p><div class="cta">Ver Dashboard -></div></div>
+      <div class="card clickable" onclick="openDash('churn')"><h3>Customer Churn Prediction</h3><p>Dashboard preditivo com Machine Learning para identificar risco de cancelamento e um Agente de IA para recomendações personalizadas. Antecipe perdas, retenha clientes e fortaleça o relacionamento.</p><div class="cta">Ver Dashboard -></div></div>
     </div>
   </section>
 
